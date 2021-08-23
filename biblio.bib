@@ -33,6 +33,17 @@ outdoor air and show dispersal limitation at short distances}",
    Month="Jul"
 }
 
+@Article{adhikari:Chromosome3D,
+   Author="Adhikari, B.  and Trieu, T.  and Cheng, J. ",
+   Title="{{C}hromosome3{D}: reconstructing three-dimensional chromosomal structures from {H}i-{C} interaction frequency data using distance geometry simulated annealing}",
+   Journal="BMC Genomics",
+   Year="2016",
+   Volume="17",
+   Number="1",
+   Pages="886",
+   Month="11"
+}
+
 
 @Manual{alexa:topgo,
     title = {topGO: Enrichment Analysis for Gene Ontology},
@@ -486,6 +497,16 @@ optimization, quasi-Newton method, nonlinear optimization}
   Month="Nov"
   }
 
+@Article{carstens:inferential,
+   Author="Carstens, S.  and Nilges, M.  and Habeck, M. ",
+   Title="{{I}nferential {S}tructure {D}etermination of {C}hromosomes from {S}ingle-{C}ell {H}i-{C} {D}ata}",
+   Journal="PLoS Comput Biol",
+   Year="2016",
+   Volume="12",
+   Number="12",
+   Pages="e1005292",
+   Month="Dec"
+}
 
 @Article{carty:integrated,
    Author="Carty, Mark  and Zamparo, Lee  and Sahin, Merve  and Gonz\`alez, Alvaro  and Pelossof, Raphael  and Elemento, Olivier  and Leslie, Christina S. ",
@@ -496,6 +517,8 @@ optimization, quasi-Newton method, nonlinear optimization}
    Pages="15454",
    Month="05"
 }
+
+
 
 @Inbook{caruana:multitask,
  author = {Caruana, R.},
@@ -518,6 +541,18 @@ optimization, quasi-Newton method, nonlinear optimization}
 neighbor, kernel regression, multitask learning, parallel transfer, supervised
 learning},
 } 
+
+@Article{caudai:inferring,
+   Author="Caudai, Claudia  and Salerno, Emanuele  and Zoppè, Monica  and
+   Tonazzini, Anna ",
+   Title="{{I}nferring 3{D} chromatin structure using a multiscale approach based on quaternions}",
+   Journal="BMC Bioinformatics",
+   Year="2015",
+   Volume="16",
+   Pages="234",
+   Month="Jul"
+}
+
 
 @InProceedings{cauer:inferring,
   author =	{Cauer, Alexandra Gesine  and Yardimci, G\"urkan  and Vert, Jean-Philippe and Varoquaux, Nelle and Noble, William Stafford},
@@ -793,6 +828,35 @@ metabolic switch}",
    Month="Dec"
 }
 
+@article{diament:improving,
+    doi = {10.1371/journal.pcbi.1004298},
+    author = {Diament, Alon AND Tuller, Tamir},
+    journal = {PLOS Computational Biology},
+    publisher = {Public Library of Science},
+    title = {Improving 3D Genome Reconstructions Using Orthologous and Functional Constraints},
+    year = {2015},
+    month = {05},
+    volume = {11},
+    url = {https://doi.org/10.1371/journal.pcbi.1004298},
+    pages = {1-22},
+    abstract = {The study of the 3D architecture of chromosomes has been
+    advancing rapidly in recent years. While a number of methods for 3D
+    reconstruction of genomic models based on Hi-C data were proposed, most of
+    the analyses in the field have been performed on different 3D
+    representation forms (such as graphs). Here, we reproduce most of the
+    previous results on the 3D genomic organization of the eukaryote
+    Saccharomyces cerevisiae using analysis of 3D reconstructions. We show
+    that many of these results can be reproduced in sparse reconstructions,
+    generated from a small fraction of the experimental data (5\% of the data),
+    and study the properties of such models. Finally, we propose for the first
+    time a novel approach for improving the accuracy of 3D reconstructions by
+    introducing additional predicted physical interactions to the model, based
+    on orthologous interactions in an evolutionary-related organism and based
+    on predicted functional interactions between genes. We demonstrate that
+    this approach indeed leads to the reconstruction of improved models.},
+    number = {5},
+
+}
 
 
 @Article{dixon:topological,
@@ -2431,6 +2495,16 @@ Villasmil, M.  and Qian, L.  and Cristea, I. M.  and Conlon, F. L. ",
    Year="2018",
 }
 
+@Article{segal:reconstruction,
+   Author="Segal, Mark R.  and Bengtsson, Henrik L. ",
+   Title="{{R}econstruction of 3{D} genome architecture via a two-stage algorithm}",
+   Journal="BMC Bioinformatics",
+   Year="2015",
+   Volume="16",
+   Pages="373",
+   Month="Nov"
+}
+
 @Article{selvaraj:whole-genome,
   Title                    = {Whole-genome haplotype reconstruction using
 proximm
@@ -2444,6 +2518,7 @@ n, B.},
   Pages                    = {1111--1118},
   Volume                   = {31}
 }
+
 
 
 @Article{servant:hicpro,
@@ -3035,6 +3110,23 @@ Vert, Jean-Philippe},
 }
 
 
+@article{wang:inferential,
+    author = {Wang, Siyu and Xu, Jinbo and Zeng, Jianyang},
+    title = "{Inferential modeling of 3D chromatin structure}",
+    journal = {Nucleic Acids Research},
+    volume = {43},
+    number = {8},
+    pages = {e54-e54},
+    year = {2015},
+    month = {02},
+    abstract = "{For eukaryotic cells, the biological processes involving regulatory DNA elements play an important role in cell cycle. Understanding 3D spatial arrangements of chromosomes and revealing long-range chromatin interactions are critical to decipher these biological processes. In recent years, chromosome conformation capture (3C) related techniques have been developed to measure the interaction frequencies between long-range genome loci, which have provided a great opportunity to decode the 3D organization of the genome. In this paper, we develop a new Bayesian framework to derive the 3D architecture of a chromosome from 3C-based data. By modeling each chromosome as a polymer chain, we define the conformational energy based on our current knowledge on polymer physics and use it as prior information in the Bayesian framework. We also propose an expectation-maximization (EM) based algorithm to estimate the unknown parameters of the Bayesian model and infer an ensemble of chromatin structures based on interaction frequency data. We have validated our Bayesian inference approach through cross-validation and verified the computed chromatin conformations using the geometric constraints derived from fluorescence in situ hybridization (FISH) experiments. We have further confirmed the inferred chromatin structures using the known genetic interactions derived from other studies in the literature. Our test results have indicated that our Bayesian framework can compute an accurate ensemble of 3D chromatin conformations that best interpret the distance constraints derived from 3C-based data and also agree with other sources of geometric constraints derived from experimental evidence in the previous studies. The source code of our approach can be found in https://github.com/wangsy11/InfMod3DGen.}",
+    issn = {0305-1048},
+    doi = {10.1093/nar/gkv100},
+    url = {https://doi.org/10.1093/nar/gkv100},
+    eprint = {https://academic.oup.com/nar/article-pdf/43/8/e54/17435836/gkv100.pdf},
+}
+
+
 @article{wang:high,
 author = {Wang, X and Leng, C},
 doi = {10.1111/rssb.12127},
@@ -3286,4 +3378,14 @@ multi-groups expression data in KEGG pathway},
    Number="8",
    Pages="e50",
    Month="05"
+}
+
+@article{zou:HSA,
+   Author="Zou, Chenchen  and Zhang, Yuping  and Ouyang, Zhengqing ",
+   Title="{{H}{S}{A}: integrating multi-track {H}i-{C} data for genome-scale reconstruction of 3{D} chromatin structure}",
+   Journal="Genome Biol",
+   Year="2016",
+   Volume="17",
+   Pages="40",
+   Month="Mar"
 }
